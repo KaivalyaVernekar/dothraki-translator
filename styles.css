@@ -46,7 +46,7 @@ footer {
   border: 1px solid #000;
   border-radius: 5px;
   resize: none;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   padding: 1rem;
 }
@@ -67,12 +67,12 @@ footer {
 
 #btn-translate h4 {
   padding: 0.5rem;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
 }
 
 .heading {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 36px;
   text-align: center;
   padding-top: 1.8rem;
@@ -118,5 +118,6 @@ footer {
   font-size: 18px;
   font-weight: 300;
   text-align: center;
+  line-height: 24px;
   color: #f1f1f1;
 }
