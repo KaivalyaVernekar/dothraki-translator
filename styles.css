@@ -1,9 +1,3 @@
-/*background-image: linear-gradient(
-    rgb(0, 0, 0) 0%,
-    rgb(118, 81, 43) 50%,
-    rgb(0, 0, 0) 90%
-  );*/
-
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +5,12 @@
   font-family: "Taviraj", sans-serif;
 }
 
+body {
+  overflow: hidden;
+}
+
 header {
   height: 15vh;
-  /*background-color: rgb(118, 81, 43);*/
   background-image: linear-gradient(
     rgb(0, 0, 0) 0%,
     rgb(118, 81, 43) 50%,
@@ -23,7 +20,6 @@ header {
 
 footer {
   height: 20vh;
-  /*background-color: rgb(118, 81, 43);*/
   background-image: linear-gradient(
     rgb(0, 0, 0) 5%,
     rgb(118, 81, 43) 50%,
@@ -120,4 +116,53 @@ footer {
   text-align: center;
   line-height: 24px;
   color: #f1f1f1;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    height: 12vh;
+  }
+
+  footer {
+    height: 20vh;
+  }
+
+  .right {
+    display: none;
+  }
+
+  #input-output-container {
+    height: 68vh;
+    width: 100vw;
+  }
+
+  #input-area,
+  #output-area {
+    height: 20vh;
+    width: 50vh;
+  }
+
+  .left {
+    margin-left: 5.55rem;
+  }
+
+  .heading {
+    font-size: 30px;
+    padding-top: 0.8rem;
+  }
+
+  .translate-para {
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .about {
+    font-size: 22px;
+    padding-top: 0.8rem;
+  }
+
+  .about-details {
+    font-size: 16px;
+    text-align: center;
+  }
 }
